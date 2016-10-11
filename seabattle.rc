@@ -1,0 +1,43 @@
+
+#include "seabattle.h"
+
+IDI_SHIPBODYHOR ICON shipbh.ico
+IDI_SHIPBODYVER ICON shipbv.ico
+IDI_SHIPTOP ICON shipt.ico
+IDI_SHIPBOTTOM ICON shipbt.ico
+IDI_SHIPLEFT ICON shipl.ico
+IDI_SHIPRIGHT ICON shipr.ico
+IDI_SHIPBROKEN ICON shipbr.ico
+IDI_WATER ICON water.ico
+IDI_ONESHIP ICON shipo.ico
+IDI_SHIPBOUND ICON shipbnd.ico
+windowicon ICON wndicon.ico
+
+IDC_MYCURSOR CURSOR mycur.cur
+
+MYMENU MENU DISCARDABLE
+{
+	POPUP "&File"
+	{
+		MENUITEM "&Restart\tCtrl-R", IDM_RESTART
+		MENUITEM SEPARATOR
+		MENUITEM "E&xit\tCtrl-X", IDM_EXIT
+	}
+	POPUP "&Options"
+	{
+		MENUITEM "Random fill for player", IDM_RANDOM
+		MENUITEM "Player always begins", IDM_PLAYERFIRST
+	}
+	POPUP "&Help"
+	{
+		MENUITEM "A&bout", IDM_ABOUT
+	}
+}
+
+MYACCELTABLE ACCELERATORS
+{
+	"^r", IDA_RESTART
+	"^R", IDA_RESTART
+	"^x", IDA_EXIT
+	"^X", IDA_EXIT
+}

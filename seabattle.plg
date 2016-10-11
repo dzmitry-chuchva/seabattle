@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: seabattle - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\mitro\LOCALS~1\Temp\RSP7.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/seabattle.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\Общая\Mitro\Programing\C++\profile2\seabattle\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\mitro\LOCALS~1\Temp\RSP7.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib gdi32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/seabattle.pdb" /machine:I386 /out:"Release/seabattle.exe"  ".\Release\main.obj" ".\Release\seabattle.res" "
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+seabattle.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
